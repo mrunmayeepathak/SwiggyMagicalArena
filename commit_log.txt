@@ -1,0 +1,125 @@
+commit 19ba78f80e46789a1796c8ecd5d09e3c8e43cd5a
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sun May 5 19:23:26 2024 +0530
+
+    Modified main class such that it will accept only string while accepting player name and will not accept numbers
+
+commit 1191c4b6007f18f33199d4afd0b0085247d7a832
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sun May 5 16:14:26 2024 +0530
+
+    Redefined output
+
+commit cd8a60c8651201d03acdd6e292842dbef17ff791
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sun May 5 15:43:05 2024 +0530
+
+    Added mockito dependency in pom.xml
+
+commit e746752da40d3c66b1a567f5f0a0c7aba833fcd9
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sun May 5 15:19:31 2024 +0530
+
+    Created PlayerTest class to run test cases for player class
+
+commit 487b0a2ad7f794137afb9b06c7bbe025b4ad2cf4
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sun May 5 14:29:58 2024 +0530
+
+    Added dependency of Junit for unit testing
+
+commit 41bbfd1665899b37f027a9df5628d8af3fd6db9d
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sun May 5 11:51:21 2024 +0530
+
+    Redefined output to display which palyer is attacking
+
+commit 01ab8789cb38c692c70af85ecef2b4b3049cfcfe
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sun May 5 02:54:37 2024 +0530
+
+    Updated Main class such that it will accept attributes of player A and player B from user
+
+commit 0df38df0a00131deeb9f6dec030311df44daf9c7
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sun May 5 02:35:11 2024 +0530
+
+    Polished the output by some code changes in each class, like displayed dice results for attacker and defender after each roll, displayed attack damage, health remaining and health reduced. Also, displayed the name of attacker player.
+
+commit a09078bd482f55d57dd52eb05b7137ab46c372a3
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sun May 5 02:05:23 2024 +0530
+
+    Modified ArenaCntroller class such that the after the first attack, players alternate their turns regardless of their heslth levels.This code change gives fair chance for both plaers to attck and defend. The swap code after each round ensures that both players get chance to attack and defend.
+
+commit 230fa58d8d91ae02fda831c61a37ad247e35380f
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sun May 5 01:10:23 2024 +0530
+
+    Created Arena controller class for implementing game logic and defined winning conditions
+
+commit 7781eb50bf0045a0ce70d84d982d2b2216d8f92b
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sat May 4 19:56:56 2024 +0530
+
+    Modified dice class due to access modifiers errors
+
+commit 1b34adde9265be8295c8d3a2b56917d82ed6ae68
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sat May 4 19:36:09 2024 +0530
+
+    Modified Player class to add isAlive method for checking player is alive or not in game logic
+
+commit 4e1942c8113a9cb142436ed7099dfacdba86a046
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sat May 4 19:11:24 2024 +0530
+
+    Defined method in gameservice class to calculate defending strength and attack damage after attack is done in the game
+
+commit 5592ec2e3fcb0204553743ccc3eefc9964e3ad38
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sat May 4 19:02:53 2024 +0530
+
+    Modified Dice class with roll method
+
+commit 368ab4494f7dff1552c75c0da330c8fd9fb9be54
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sat May 4 18:44:16 2024 +0530
+
+    Created gameservice class for calculating values of attributes for building game logic
+
+commit e39877880b7c106faa8e5e3b37b68949d22f7013
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sat May 4 18:33:00 2024 +0530
+
+    Created Main class and defined players by giving values of attributes
+
+commit 255959a767d7495293eeea5a7b3a8ea8020ef1f5
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sat May 4 18:25:33 2024 +0530
+
+    Modified player class for getting attributes(health, stregth, attack)
+
+commit c9fdf59f6cccb9bf28bdb0b35404a3170e2d431e
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sat May 4 18:19:35 2024 +0530
+
+    Modified Player class
+
+commit 0d807bba416b2f7773cf213016356cb0442beac4
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sat May 4 17:42:17 2024 +0530
+
+    Added class for players
+
+commit dbb264b21abb260a14fe92a9423bb21375bcdcbc
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sat May 4 15:06:13 2024 +0530
+
+    Check
+
+commit b645ad91bdbacafee1ad8063c96abda26bd3c00d
+Author: mrunmayee <pathakmrun@gmail.com>
+Date:   Sat May 4 14:48:16 2024 +0530
+
+    Implemented a Dice class for both Player A and B to roll the dice.
